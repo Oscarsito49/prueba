@@ -18,3 +18,9 @@
 En **este documento** mostrare diferentes funciones de **GitHub**, así como los passos a seguir y aquella informacion que considere importante.
 
 ## Pasos a seguir para conseguir diferenres acciones.
+
+## Conclusiones
+
+## Bibliografía
+#### Classsroom: 
+**GitHub Introducció _de Daniel Delgado_**
