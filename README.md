@@ -18,8 +18,54 @@
 En **este documento** mostrare diferentes funciones de **GitHub**, así como los passos a seguir y aquella informacion que considere importante.
 
 ## Pasos a seguir para conseguir diferenres acciones.
+### Intsalar GitHub en Mac/Osx
+
+La forma **más fácil** de instalar **Git en Mac** es a través del instalador que puede descargar [aquí](https://sourceforge.net/projects/git-osx-installer/files/). Abre el archivo que acabas de descargar y sigue las instrucciones para realizar la instalación.
+
+Para **confirmar** que la instalación de GIT **es correcta**, abre una nueva ventana de Terminal y escribe el siguiente comando:
+```
+git --version
+```
+Si **GIT** está instalado, el comando de arriba debería mostrar la versión instalada actual.
+
+## Crear archivo
+A continuación vamos a crear un archivo en c que usaremos para aprender los comandos básicos de **GitHub**,
+```
+$ mkdir pruebaGitHub
+$ cd pruebaGitHub
+$ touch prueba.c
+$ gedit % nano ~/Documents/readme.txt
+```
+En este momento se debe de abrir un editor de textos para poder escribir el contenido del programa:
+```
+#include <stdio.h>
+int main(){
+    printf(“Hola DAW”);
+    return 0;
+}
+```
+
+## Configurar GIT y subir archivos
+Antes de continuar usando GIT, debes configurar tu nombre de usuario y correo electrónico. Estos detalles se asociarán con cualquier confirmación que crees. Para configurarlo, ejecuta los siguientes comandos:
+```
+$ git config --global user.email “<miCorreoElectrónicoEnGitHub>”
+$ git config --global user.name “<miNombreEnGitHub>”
+```
+A continuación procedemos a iniciar un nuevo repositorio en GitHub y subir el directorio actual:
+```
+$ git init
+$ git add .
+$ git commit -m “Subida del archivo de prueba”
+$ git push
+```
+Es posible que en algún momento pida un token de GitHub. Se pueden obtener en **GitHub → Settings** de la cuenta **→ Developer Settings** (A la izquierda, abajo del todo) **→ Personal access tokens → Generate new token.**
+
+**Comprueba en la web de Github que tu archivo se ha subido correctamente.**
+
+
 
 ## Conclusiones
+**GitHub** es una herramienta fácil de usar que simplifica el proceso de programación, permitiendo a los desarrolladores subir archivos y gestionar proyectos de manera centralizada en la nube. Con una interfaz intuitiva y basada en Git, puedes controlar versiones de tu código, colaborar con otros programadores de forma sencilla y mantener todo organizado en un solo lugar. Además, al estar todo en la nube, puedes acceder a tus proyectos desde cualquier lugar, lo que facilita la gestión, el trabajo colaborativo y la integración continua en tus flujos de desarrollo.
 
 ## Bibliografía
 ### Classsroom: 
