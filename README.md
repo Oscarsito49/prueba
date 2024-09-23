@@ -22,5 +22,5 @@ En **este documento** mostrare diferentes funciones de **GitHub**, así como los
 ## Conclusiones
 
 ## Bibliografía
-#### Classsroom: 
+### Classsroom: 
 **GitHub Introducció _de Daniel Delgado_**
