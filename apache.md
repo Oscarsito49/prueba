@@ -55,6 +55,6 @@
 
 ### Externos:
 
-[Instalación](https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04-es?authuser=0).
-[Configuración](https://ubuntu.com/tutorials/install-and-configure-apache#1-overview).
-[Virtual Host](https://www.desarrollolibre.net/blog/apache/que-son-y-como-emplear-los-virtualhost-en-apache).
+[Instalación](https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-20-04-es?authuser=0)  
+[Configuración](https://ubuntu.com/tutorials/install-and-configure-apache#1-overview)  
+[Virtual Host](https://www.desarrollolibre.net/blog/apache/que-son-y-como-emplear-los-virtualhost-en-apache)  
