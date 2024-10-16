@@ -38,16 +38,16 @@
 
 
 
-# Cuerpo:
+## Cuerpo:
 
 
 
-## Instalación
+### Instalación
 
 
 
 
-## Configuración
+### Configuración
 
 
 
