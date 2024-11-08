@@ -41,20 +41,20 @@
 
 
 
-### Instalación de APACHE
+### Instalación
 #### Paso 1: Instalar Apache
 Apache está disponible en los repositorios de software predeterminados de Ubuntu, lo que permite instalarlo con las herramientas convencionales de administración de paquetes.
 
 Comencemos actualizando el índice de paquetes locales para que reflejen los últimos cambios anteriores:
 ![1 (1)](https://github.com/user-attachments/assets/e9d8715c-ee52-440d-a876-fdefb35148c0)
-A continuación, instale el paquete **apache2**:
+A continuación, instale el paquete **apache2**:  
 ![2](https://github.com/user-attachments/assets/0c8786a8-6b1f-4b21-9d8c-015f00a91494)
 
 En este caso nos sale un error por lo que procedemos a killear un proceso que nos impide la instalacion y volver a intentarlo:
-Matar el proceso:
+Matar el proceso:  
 ![3](https://github.com/user-attachments/assets/15e7c5fe-d1f6-489c-948d-b16303563cf7)
 
-Volver a instalarlo:
+Volver a instalarlo:  
 ![4 (2)](https://github.com/user-attachments/assets/2596bed3-1829-418c-a5bd-29d868732b12)
 ![5](https://github.com/user-attachments/assets/15fdaa56-b838-4edd-806e-a6ab448b2f41)
 ![6](https://github.com/user-attachments/assets/962b4228-8af2-45ca-b237-09efc5daf66e)
@@ -72,7 +72,7 @@ Enumere los perfiles de aplicación ufw escribiendo lo siguiente:
 
 
 
-### Configuración de APACHE
+### Configuración
 
 
 
