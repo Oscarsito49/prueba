@@ -46,6 +46,7 @@
 Apache está disponible en los repositorios de software predeterminados de Ubuntu, lo que permite instalarlo con las herramientas convencionales de administración de paquetes.
 
 Comencemos actualizando el índice de paquetes locales para que reflejen los últimos cambios anteriores:
+![1 (1)](https://github.com/user-attachments/assets/e9d8715c-ee52-440d-a876-fdefb35148c0)
 
 
 
