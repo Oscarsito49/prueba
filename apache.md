@@ -2,16 +2,17 @@
 
 ## Introducción:
 ### Resumen
+Este documento detalla el proceso de instalación y configuración de un servidor web Apache en Linux. Se describen los pasos necesarios para descargar el software, realizar ajustes en los archivos de configuración y gestionar el servicio para que funcione correctamente en cada plataforma. Al final, se ofrece una valoración personal sobre el aprendizaje obtenido y las dificultades encontradas durante el desarrollo del trabajo.
 
 
 ### Palabras clave:
 1. **APACHE**
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
+2. **Linux**
+3. **Servidor web**
+4. **httpd.conf**
+5. **ServerName**
+6. **Servicio**
+7. **UFW**
    
 ### Índice:
 [-Introducción](#Introducción)    
@@ -128,7 +129,7 @@ Deberíamos tener nuestro correo electrónico para ServerAdminque los usuarios p
 También queremos que la DocumentRootdirectiva apunte al directorio en el que están alojados los archivos de nuestro sitio:
 `DocumentRoot /var/www/gci/`
 
-El archivo predeterminado no viene con una ServerNamedirectiva, por lo que tendremos que agregarlo y definirlo agregando esta línea debajo de la última directiva:
+El archivo predeterminado no viene con una ServerName directiva, por lo que tendremos que agregarlo y definirlo agregando esta línea debajo de la última directiva:
 `ServerName gci.example.com`
 ![25](https://github.com/user-attachments/assets/55bdd463-296a-433c-be41-98a7f2e01517)
 
@@ -160,8 +161,10 @@ Resultado final:
 
 
 ## Resultados y Conculsión
+Una vez completado el trabajo, se ha conseguido instalar y configurar un servidor web Apache funcional en Linux. Se han seguido las instrucciones para la descarga, instalación y ajuste de configuración del servidor, logrando que Apache esté operativo y sirviendo contenido de manera eficiente. Este proceso ha permitido adquirir conocimientos sobre los archivos de configuración de Apache y la gestión de su servicio en diferentes sistemas operativos.  
 
-
+### Valoración personal
+Este trabajo ha sido útil para entender cómo funciona Apache y aprender a configurarlo en distintos sistemas. Ver cómo responde el servidor en la práctica me ayudó a fijar conceptos que antes solo tenía en teoría. Además, compartir dudas y soluciones con mis compañeros fue clave para avanzar mejor.  
 
 
 
