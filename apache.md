@@ -1,7 +1,6 @@
 # Apache
 
 ## Introducción:
-
 ### Resumen
 
 
@@ -42,12 +41,17 @@
 
 
 
-### Instalación
+### Instalación de APACHE
+#### Paso 1: Instalar Apache
+Apache está disponible en los repositorios de software predeterminados de Ubuntu, lo que permite instalarlo con las herramientas convencionales de administración de paquetes.
+
+Comencemos actualizando el índice de paquetes locales para que reflejen los últimos cambios anteriores:
 
 
 
 
-### Configuración
+
+### Configuración de APACHE
 
 
 
