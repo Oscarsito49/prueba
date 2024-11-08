@@ -23,12 +23,6 @@
 [-Bibliografia](#Bibliografía)    
 
 
-
-
-
-
-
-
 ### Contexto:
 Este proyecto se lleva a cabo en un entorno académico, en el que los estudiantes aprenden sobre tecnologías de servidores web, en particular Apache. El objetivo de esta actividad es brindar una comprensión básica de los servidores web, su configuración y funcionamiento, así como su rol en la arquitectura de la web.
 
@@ -43,13 +37,10 @@ Posibles alternativas a Apache:
 
 
 ### Motivación:
-
+El motivo principal de este proyecto es comprender el funcionamiento de Apache como servidor web y su rol esencial en la gestión de sitios y aplicaciones web. A través de esta experiencia, buscamos adquirir habilidades prácticas en la configuración y administración de servidores, entendiendo cómo Apache permite alojar y servir contenido de forma eficiente. Esta práctica nos ayudará a construir una base sólida en tecnologías de servidores web, facilitando nuestra preparación para futuros proyectos y entornos profesionales.
 
 
 ## Cuerpo:
-
-
-
 ### Instalación
 #### Paso 1: Instalar Apache
 Apache está disponible en los repositorios de software predeterminados de Ubuntu, lo que permite instalarlo con las herramientas convencionales de administración de paquetes.
@@ -98,7 +89,6 @@ Cuando tenga la dirección IP de su servidor, introdúzcala en la barra de direc
 Debería ver la página web predeterminada de Apache en Ubuntu 20.04:  
 ![12](https://github.com/user-attachments/assets/a49cf47f-d622-4cdf-928b-8afe03a6e7c3)  
 Esta página indica que Apache funciona correctamente. También incluye información básica sobre archivos y ubicaciones de directorios importantes de Apache.
-
 
 
 ### Configuración
