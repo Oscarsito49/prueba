@@ -30,7 +30,16 @@
 
 
 ### Contexto:
+Este proyecto se lleva a cabo en un entorno académico, en el que los estudiantes aprenden sobre tecnologías de servidores web, en particular Apache. El objetivo de esta actividad es brindar una comprensión básica de los servidores web, su configuración y funcionamiento, así como su rol en la arquitectura de la web.
 
+Apache es uno de los servidores web más utilizados a nivel mundial. Fue desarrollado por la Apache Software Foundation y lanzado en 1995. Es un servidor web de código abierto y gratuito que permite alojar sitios web y aplicaciones. Su flexibilidad y compatibilidad con diferentes sistemas operativos (como Unix, Linux y Windows) lo han convertido en una opción popular para desarrolladores y empresas.
+
+Apache permite gestionar solicitudes HTTP y servir contenido web estático o dinámico. Se utiliza tanto en entornos de producción como de desarrollo, y su arquitectura modular permite añadir funcionalidades adicionales a través de módulos que amplían sus capacidades.
+
+Posibles alternativas a Apache:
+* Nginx: Un servidor web y proxy inverso, conocido por su rendimiento en entornos de alta concurrencia. Es ligero y adecuado para sitios de alto tráfico.
+* Microsoft IIS: Servidor web de Microsoft, optimizado para funcionar con productos de Microsoft y el sistema operativo Windows, y con una integración excelente con .NET.
+* LiteSpeed: Otro servidor web de alto rendimiento, especialmente adecuado para sitios que necesitan optimización de velocidad y soporte en tecnologías específicas como WordPress.
 
 
 ### Motivación:
