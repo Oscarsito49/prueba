@@ -92,6 +92,68 @@ Esta página indica que Apache funciona correctamente. También incluye informac
 
 
 ### Configuración
+#### Creando nuestro propio sitio web
+Por defecto, Apache viene con un sitio básico (el que vimos en el paso anterior) habilitado. Podemos modificar su contenido en /var/www/htmlo en su configuración editando su archivo Virtual Host que se encuentra en /etc/apache2/sites-enabled/000-default.conf.
+
+Podemos modificar la forma en que Apache maneja las solicitudes entrantes y tener múltiples sitios ejecutándose en el mismo servidor editando su archivo Virtual Hosts.
+
+Hoy, dejaremos la configuración de host virtual Apache predeterminada apuntando a www.example.comy configuraremos la nuestra en gci.example.com.
+
+Entonces, comencemos creando una carpeta para nuestro nuevo sitio web /var/www/ejecutando  
+![21](https://github.com/user-attachments/assets/e265d9db-cc96-4168-a4c4-819d040a8f17)  
+Lo hemos nombrado gci, pero cualquier nombre funcionará, siempre que lo indiquemos en el archivo de configuración de hosts virtuales más adelante.
+
+Ahora que hemos creado un directorio para nuestro sitio, vamos a colocar un archivo HTML en él. Vayamos al directorio que acabamos de crear y creemos uno escribiendo:  
+![22](https://github.com/user-attachments/assets/b2dff40e-67d3-453b-8952-11c4c79e6afb)  
+Pegue el siguiente código en el index.html archivo:  
+![23](https://github.com/user-attachments/assets/de3a21a2-9979-4f2f-9d23-2507c9d309b1)  
+Bastante genial, ¿verdad?
+
+Ahora vamos a crear un archivo VirtualHost para que aparezca cuando escribamos gci.example.com.
+
+#### Configuración del archivo de configuración de VirtualHost
+Comenzamos este paso yendo al directorio de archivos de configuración:
+`cd /etc/apache2/sites-available/`
+
+Dado que Apache viene con un archivo VirtualHost predeterminado, usémoslo como base. ( gci.confse usa aquí para que coincida con nuestro nombre de subdominio):
+`sudo cp 000-default.conf gci.conf`
+
+Ahora edite el archivo de configuración:
+`sudo nano gci.conf`
+![24](https://github.com/user-attachments/assets/f7fb907e-7e24-4437-9a65-0b0d8cc71cb5)  
+
+Deberíamos tener nuestro correo electrónico para ServerAdminque los usuarios puedan comunicarse con usted en caso de que Apache experimente algún error:
+`ServerAdmin yourname@example.com`
+
+También queremos que la DocumentRootdirectiva apunte al directorio en el que están alojados los archivos de nuestro sitio:
+`DocumentRoot /var/www/gci/`
+
+El archivo predeterminado no viene con una ServerNamedirectiva, por lo que tendremos que agregarlo y definirlo agregando esta línea debajo de la última directiva:
+`ServerName gci.example.com`
+![25](https://github.com/user-attachments/assets/55bdd463-296a-433c-be41-98a7f2e01517)
+
+#### Activación del archivo VirtualHost
+Después de configurar nuestro sitio web, debemos activar el archivo de configuración de hosts virtuales para habilitarlo. Para ello, ejecutamos el siguiente comando en el directorio del archivo de configuración:
+`sudo a2ensite gci.conf`
+
+Deberías ver el siguiente resultado
+`Enabling site gci.`
+
+```
+To activate the new configuration, you need to run:
+  service apache2 reload
+root@ubuntu-server:/etc/apache2/sites-available#
+```
+
+Para cargar el nuevo sitio, reiniciamos Apache escribiendo:
+`service apache2 reload`
+![26](https://github.com/user-attachments/assets/6c811214-7508-4d98-9f9b-dc918b6b4ec9)  
+Deberemos poner la contraseña de nuestro ususario en caso de tener una:  
+![27](https://github.com/user-attachments/assets/46126cf9-999a-4af4-8fc1-d39322f38962)
+
+Resultado final:  
+![28](https://github.com/user-attachments/assets/a22d2caa-8bdf-4c88-9c31-50ec3847be05)
+
 
 
 
