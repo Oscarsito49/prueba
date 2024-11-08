@@ -107,7 +107,8 @@ Esta página indica que Apache funciona correctamente. También incluye informac
 
 ## Bibliografía
 ### Classsroom: 
-**GitHub Introducció _de Daniel Delgado_**
+**Documentación de APACHE Introducción _de Daniel Delgado_**
+**Documentación de APACHE Configuración _de Daniel Delgado_**
 
 ### Externos:
 
