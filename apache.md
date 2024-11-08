@@ -97,7 +97,7 @@ Por defecto, Apache viene con un sitio básico (el que vimos en el paso anterior
 
 Podemos modificar la forma en que Apache maneja las solicitudes entrantes y tener múltiples sitios ejecutándose en el mismo servidor editando su archivo Virtual Hosts.
 
-Hoy, dejaremos la configuración de host virtual Apache predeterminada apuntando a www.example.comy configuraremos la nuestra en gci.example.com.
+Hoy, dejaremos la configuración de host virtual Apache predeterminada apuntando a www.example.com y configuraremos la nuestra en gci.example.com.
 
 Entonces, comencemos creando una carpeta para nuestro nuevo sitio web /var/www/ejecutando  
 ![21](https://github.com/user-attachments/assets/e265d9db-cc96-4168-a4c4-819d040a8f17)  
